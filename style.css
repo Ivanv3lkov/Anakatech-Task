@@ -1,0 +1,28 @@
+section {
+    display: block;
+}
+
+span {
+    float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 60%;
+    padding: 5px;
+    background-color: green;
+}
+
+.icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+}
+
+p{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.currencyColor {
+    color: blue;
+}
