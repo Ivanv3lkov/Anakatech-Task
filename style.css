@@ -1,6 +1,8 @@
 body {
-    background-color: lightgrey;
+    background-image: url(./images/forex.jpg);
+    background-size: cover;
 }
+
 h1 {
     border-radius: 5px;
     margin-right: 65%;
@@ -30,6 +32,7 @@ span {
 p{
     margin-left: 60px;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 .currencyColor {
