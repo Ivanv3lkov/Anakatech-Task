@@ -14,7 +14,7 @@ fetch("./currencies.json")
         for (let s = 0; s < values.length; s++) {
             spans.push(document.createElement("span"))
         }
-        
+
         for (let i = 0; i < spans.length; i++) {
             spans[i].innerHTML = "<strong>" + values[i] + "</strong>";
         }
@@ -38,7 +38,7 @@ fetch("./currencies.json")
                 for (let i = 0; i < values.length; i++) {
                     values[i] += 0.0001
                     spans[i].style.backgroundColor = "lightgreen";
-                    
+
                 }
                 minutes += 5000;
             } else {
@@ -66,7 +66,3 @@ fetch("./currencies.json")
 
         }, 5000);
     });
-
-
-
-
