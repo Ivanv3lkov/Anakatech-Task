@@ -33,7 +33,6 @@ fetch("./currencies.json")
                 return;
             }
 
-            
             if (counterTillFive % 2 === 0) {
 
                 for (let i = 0; i < values.length; i++) {
@@ -67,3 +66,4 @@ fetch("./currencies.json")
 
         }, 5000);
     });
+
