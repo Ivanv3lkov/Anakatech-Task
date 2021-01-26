@@ -66,3 +66,7 @@ fetch("./currencies.json")
 
         }, 5000);
     });
+
+
+
+        //very simple app
